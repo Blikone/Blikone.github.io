@@ -1,0 +1,11 @@
+.side-well, .main-well {
+    height: 99vh;
+    overflow-y: scroll;
+}
+.picture-well {
+    padding: 18px;
+}
+.headshot {
+    border-radius: 50%;
+    width: 100%;
+}

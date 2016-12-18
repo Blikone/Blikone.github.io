@@ -1,11 +1,25 @@
-.side-well, .main-well {
+.side-well {
+    height: 99vh
+}
+/*.side-well, .main-well {
     height: 99vh;
+}*/
+.main-well {
     overflow-y: scroll;
 }
 .picture-well {
     padding: 18px;
+    display: flex;
+    justify-content: center;
 }
 .headshot {
     border-radius: 50%;
-    width: 100%;
+    width: 90%;
+    height: 90%
+}
+.portfolio {
+    text-align: center
+}
+.project-thumb {
+    width: 90%
 }

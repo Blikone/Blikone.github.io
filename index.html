@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Jonathan Steenblik</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="site.css">
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-md-4 side-well">
+            <div class="col-xs-12 col-sm-4 side-well">
                 <div class="picture-well">
-                    <img src="./images/headshot.png" class="headshot">
+                    <img src="./images/square-headshot.jpg" class="headshot">
                 </div>
                 <div class="interests">
 
@@ -20,32 +22,93 @@
 
                 </div>
             </div>
-            <div class="col-xs-12 col-md-8 main-well">
-                <div class="row">
-                    <div class="col-xs-7">
-                        <h1>Jonathan</h1>
-                        <h1>Steenblik</h1>
-                        <p class="contact">
-                            <span class="glyphicon glyphicon-envelope"></span>
-                            <a href="mailto:blikone@hotmail.com?subject=I%20saw%20your%20github%20profile" class="email">contact me</a>
-                        </p>
-                        <div class="icon-well">
+            <div class="col-xs-12 col-sm-8 main-well">
+                <!--<div class="row">
+                    <div class="col-xs-7">-->
+                <div class="intro">
+                    <h1>Jonathan</h1>
+                    <h1>Steenblik</h1>
+                    <p class="contact">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        <a href="mailto:blikone@hotmail.com?subject=I%20saw%20your%20github%20profile" class="email">contact me</a>
+                    </p>
+                </div>
+                <div class="icon-well">
 
+                </div>
+                <!--</div>
+                    <div class="col-xs-5">
+                        icon.logo
+                <a href="Blikone.github.io/resume" alt="Curriculum Vitae">Click here for my resume (placeholder text)</a>
+                    </div>
+                </div>-->
+                <div class="biography">
+                    <h3>About Me</h3>
+                    <p>
+                        I'm a thirty-year old web developer. I love the orderliness of computer code and see solid logic in its progression. By training
+                        I'm a mathematician and a musician. My degree is in music and I have experience teaching higher-level
+                        maths professionally. It wasn't until after college I investigated programming and decided to pursue
+                        this course.</p>
+                    <p>
+                        I received my programming training through the Full Stack Web Developer course at Boise CodeWorks, successfullygi passing
+                        their Fall 2016 cohort.</p>
+                </div>
+                <div class="portfolio-heading">
+                    <h3>My Work</h3>
+                </div>
+                <div class="portfolio container-fluid">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="https://blikone.github.io/inspire/" target="_blank"><img src=".\images\inspire-app.PNG" class="project-thumb" alt="Inspiration">
+                            <h5>Useful and visually-refreshing home page</h5></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <img src=".\images\bsa-app.PNG" class="project-thumb" alt="Cub Scout Day Camp Registration">
+                            <h5>BSA Day Camp Registration System</h5>
+                            <!--Make this a Sweet Alert-->
+                            <h6>Link coming upon deployment</h6>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="https://blikone.github.io/itunes/" target="_blank"><img src=".\images\itunes-app.PNG" class="project-thumb" alt="Stylish iTunes searcher">
+                            <h5>Search iTunes database and save favorites</h5></a>
                         </div>
                     </div>
-                    <div class="col-xs-5">
-                        <!--icon.logo-->
-                        <a href="Blikone.github.io/resume" alt="Curriculum Vitae">Click here for my resume (placeholder text)</a>
+                    <div class="row">
+                        <div class="col-xs-4-offset-2">
+                            <a href="https://blikone.github.io/life-game/" target="_blank"><img src=".\images\genesis-app.PNG" class="project-thumb" alt="The Game of Life">
+                                <h5>Robert Conway's Life Genesis engine</h5>
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="https://blikone.github.io/fantasy-football/" target="_blank"><img src=".\images\football-app.PNG" class="project-thumb" alt="Fantasy Football roster">
+                            <h5>Build a fantasy <s>hand egg</s> football team</h5></a>
+                        </div>
                     </div>
                 </div>
-                <div class="biography">
-
-                </div>
                 <div class="training">
-
+                    <h3>My Experience</h3>
+                    <p>
+                        Many aspects of my life and career before becoming a programmer inform my current style and outlook. As a musician, I was
+                        encouraged to record my practice for self-evaluation, and play for family and friends to rehearse
+                        in performance settings. Today, this means that I still get family and friends to examine my work,
+                        and I do my best to evaluate my design through the eyes of a user or other observer. My biggest question
+                        is, "Would I want to use this?"</p>
+                    <p>
+                        As a trigonometry teacher, I was given the latitude to design my own curriculum. I had the responsibility to help my group
+                        of seniors become college-ready before graduation. My approach involved finding and addressing holes
+                        in their knowledge and prioritizing ways to work the specific practice they needed into my daily
+                        instruction. I had to skip areas that I considered engaging, like polyhedral geometry, in order to
+                        concentrate on those I anticipated being most in need of in college and beyond, such as exponential
+                        growth and interest rates. The lesson I have taken from this experience is that necessary components
+                        must be added to a project before the flashier, bonus features.</p>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <script src="dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
 </body>
+
 </html>

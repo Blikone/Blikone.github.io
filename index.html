@@ -19,58 +19,66 @@
 
                 </div>
                 <div class="truths-and-lie">
+                    <div class="truth-game-heading">
+                        <h3>Let's play a game.</h3>
+                        <h4>Which of the following statements about me is true?</h4>
+                        <h4>Click to find out!</h4>
+                    </div>
+                    <div class="truth-lie" id="randomStatementA">
 
+                    </div>
+                    <div class="truth-lie" id="randomStatementB">
+
+                    </div>
+                    <div class="truth-lie" id="randomStatementC">
+
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 main-well">
-                <!--<div class="row">
-                    <div class="col-xs-7">-->
                 <div class="intro">
                     <h1>Jonathan</h1>
                     <h1>Steenblik</h1>
-                    <p class="contact">
-                        <span class="glyphicon glyphicon-envelope"></span>
-                        <a href="mailto:blikone@hotmail.com?subject=I%20saw%20your%20github%20profile" class="email">contact me</a>
-                    </p>
                 </div>
                 <div class="icon-well">
-
+                    <p class="contact">
+                        Contact me via:
+                    </p>
+                    <a href="mailto:blikone@hotmail.com?subject=I%20saw%20your%20github%20profile"><img src="./images/email icon.png" class="icon"></a>
+                    <a href="http://www.github.com/Blikone" target="_blank"><img src=".\images\github icon.png" class="icon"></a>
+                    <a href="https://www.linkedin.com/in/jonathan-steenblik-a16918123" target="_blank"><img src=".\images\linkedin icon.png" class="icon"></a>
+                    <a href="https://www.facebook.com/jonathan.steenblik" target="_blank"><img src=".\images\facebook icon.png" class="icon"></a>
                 </div>
-                <!--</div>
-                    <div class="col-xs-5">
-                        icon.logo
-                <a href="Blikone.github.io/resume" alt="Curriculum Vitae">Click here for my resume (placeholder text)</a>
-                    </div>
-                </div>-->
                 <div class="biography">
-                    <h3>About Me</h3>
+                    <h2>About Me</h2>
                     <p>
                         I'm a thirty-year old web developer. I love the orderliness of computer code and see solid logic in its progression. By training
                         I'm a mathematician and a musician. My degree is in music and I have experience teaching higher-level
                         maths professionally. It wasn't until after college I investigated programming and decided to pursue
                         this course.</p>
                     <p>
-                        I received my programming training through the Full Stack Web Developer course at Boise CodeWorks, successfully passing
-                        their Fall 2016 cohort.</p>
+                        I received my programming training through the Full Stack Web Developer course at Boise CodeWorks, successfully passing their
+                        Fall 2016 cohort.</p>
                 </div>
                 <div class="portfolio-heading">
-                    <h3>My Work</h3>
+                    <h2>My Work</h2>
                 </div>
                 <div class="portfolio container-fluid">
                     <div class="row">
                         <div class="col-xs-4">
                             <a href="https://blikone.github.io/inspire/" target="_blank"><img src=".\images\inspire-app.PNG" class="project-thumb" alt="Inspiration">
-                            <h5>Useful and visually-refreshing home page</h5></a>
+                                <h5>Useful and visually-refreshing home page</h5>
+                            </a>
                         </div>
-                        <div class="col-xs-4">
-                            <img src=".\images\bsa-app.PNG" class="project-thumb" alt="Cub Scout Day Camp Registration">
-                            <h5>BSA Day Camp Registration System</h5>
-                            <!--Make this a Sweet Alert-->
-                            <h6>Link coming upon deployment</h6>
+                        <div class="col-xs-4 inactive">
+                            <a><img src=".\images\bsa-app.PNG" class="project-thumb" alt="Cub Scout Day Camp Registration">
+                                <h5>BSA Day Camp Registration System</h5>
+                            </a>
                         </div>
                         <div class="col-xs-4">
                             <a href="https://blikone.github.io/itunes/" target="_blank"><img src=".\images\itunes-app.PNG" class="project-thumb" alt="Stylish iTunes searcher">
-                            <h5>Search iTunes database and save favorites</h5></a>
+                                <h5>Search iTunes database and save favorites</h5>
+                            </a>
                         </div>
                     </div>
                     <div class="row">
@@ -81,12 +89,14 @@
                         </div>
                         <div class="col-xs-4">
                             <a href="https://blikone.github.io/fantasy-football/" target="_blank"><img src=".\images\football-app.PNG" class="project-thumb" alt="Fantasy Football roster">
-                            <h5>Build a fantasy <s>hand egg</s> football team</h5></a>
+                                <h5>Build a fantasy
+                                    <s>hand egg</s> football team</h5>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="training">
-                    <h3>My Experience</h3>
+                    <h2>My Experience</h2>
                     <p>
                         Many aspects of my life and career before becoming a programmer inform my current style and outlook. As a musician, I was
                         encouraged to record my practice for self-evaluation, and play for family and friends to rehearse
@@ -106,9 +116,11 @@
         </div>
     </div>
 
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-    <script src="dist/sweetalert.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+    <script src="./node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./node_modules/sweetalert/dist/sweetalert.css">
+    <script src="app.js"></script>
 </body>
 
 </html>

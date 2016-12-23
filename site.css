@@ -1,9 +1,9 @@
-.side-well {
+/*.side-well {
     height: 99vh
-}
-/*.side-well, .main-well {
-    height: 99vh;
 }*/
+.side-well, .main-well {
+    height: 99vh;
+}
 .main-well {
     overflow-y: scroll;
 }
@@ -17,9 +17,32 @@
     width: 90%;
     height: 90%
 }
+.icon {
+    width: 40px;
+    padding: 8px;
+}
 .portfolio {
     text-align: center
 }
 .project-thumb {
     width: 90%
+}
+
+.truth-game-heading {
+    text-align: center;
+}
+.truth-lie {
+    padding: 5px;
+    border: 3px solid #999999;
+    border-radius: 7px;
+    background-color: #dddddd;
+    margin-top: 2px;
+}
+.truth {
+    background-color: #099000;
+    color: white;
+}
+.lie {
+    background-color: #dd4021;
+    color: white;
 }

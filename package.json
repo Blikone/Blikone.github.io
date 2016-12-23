@@ -1,0 +1,23 @@
+{
+  "name": "blikone.github.io",
+  "version": "1.0.0",
+  "description": "My own personal webpage",
+  "main": "index.html",
+  "dependencies": {
+    "sweetalert": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blikone/Blikone.github.io.git"
+  },
+  "author": "Jonathan Steenblik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blikone/Blikone.github.io/issues"
+  },
+  "homepage": "https://github.com/Blikone/Blikone.github.io#readme"
+}

@@ -1,6 +1,6 @@
-/*.side-well {
-    height: 99vh
-}*/
+h1 {
+    font-size: 3em;
+}
 .side-well, .main-well {
     height: 99vh;
 }
@@ -18,7 +18,7 @@
     height: 90%
 }
 .icon {
-    width: 40px;
+    width: 55px;
     padding: 8px;
 }
 .portfolio {

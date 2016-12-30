@@ -3,10 +3,10 @@
     var truths = [
         { prompt: "In high school I was a featured soloist with a city youth orchestra.", answer: "True. I performed a piano concerto with the Spokane Youth Orchestra after a year of hard practice." },
         { prompt: "I am an Eagle Scout.", answer: "True. My eagle project involved recreating a flooded-out music library." },
-        { prompt: "I enjoy helping my wife piece patchwork quilts.", answer: "True. My geometry training has led be to be good at spatial and pattern recognition." },
+        { prompt: "I enjoy helping my wife piece patchwork quilts.", answer: "True. My geometry training has led be to be good at spatial relationships and pattern recognition." },
         { prompt: "I read and speak French.", answer: "C'est vrai, mais quand quelqu'un d'autre parle à moi, c'est un peu plus difficile à le comprendre." },
         { prompt: "During college I tutored classmates in four different subjects.", answer: "True. College algebra, calculus-based mechanical physics, and musical theory and aural recognition." },
-        { prompt: "I have appeared onstage with the internationally-acclaimed Eroica Trio.", answer: "True. I worked for a year as an usher in the auditorium and volunteered to be their page turner." },
+        { prompt: "I have appeared onstage with the internationally-acclaimed Eroica Trio.", answer: "True. In college I worked for a year as an usher in the auditorium and volunteered to be their page turner." },
         { prompt: "I still carry a flip phone.", answer: "Yes, it's true.  I'm a simple man, and I prefer to get directions before I leave the house." },
         { prompt: "I have entered produce from my garden in the county fair.", answer: "True. Won honorable mention for tomatoes with strange growths that my father labelled \"Richard Nixon and Spiro Agnew\"." },
     ];
@@ -14,7 +14,7 @@
         { prompt: "I once placed in a Super Smash Brothers tournament.", answer: "False. But I played against friends enough to be a fairly competent button-masher." },
         { prompt: "I won the county Spelling Bee in elementary school.", answer: "False. But second place in the county spelling bee isn't bad." },
         { prompt: "I am fluent in Spanish.", answer: "Sadly, no. Though I'm pretty good at French." },
-        { prompt: "I am an avid Whovian and adore David Tennant.", answer: "David Tennant is a great actor, but I'm not a Whovian. I prefer BBC's Sherlock any day of the week." },
+        { prompt: "I am an avid Whovian and adore David Tennant.", answer: "David Tennant is a great actor, but I don't watch Doctor Who. I prefer BBC's Sherlock any day of the week." },
     ];
     var randomizer = Math.floor(Math.random() * Math.ceil(truths.length / 2));
     var randomTruthA = truths[randomizer];

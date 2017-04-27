@@ -41,11 +41,15 @@
     $('#randomStatementB').html(statementList[1].statement);
     $('#randomStatementC').html(statementList[2].statement);
 
+    $('#randomStatementA-2').html(statementList[0].statement);
+    $('#randomStatementB-2').html(statementList[1].statement);
+    $('#randomStatementC-2').html(statementList[2].statement);
+
     $('.truth-lie').on('click', function () {
         var key;
-        if (this.id == 'randomStatementA') {
+        if (this.id == 'randomStatementA' || this.id == 'randomStatementA-2') {
             key = statementList[0];
-        } else if (this.id == 'randomStatementB') {
+        } else if (this.id == 'randomStatementB' || this.id == 'randomStatementB-2') {
             key = statementList[1];
         } else { key = statementList[2] }
 

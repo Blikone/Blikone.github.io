@@ -10,53 +10,218 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 side-well">
-                <div class="picture-well">
-                    <img src="./images/square-headshot.jpg" class="headshot">
+    <div class="content-well">
+        <div class="desktop-content container-fluid">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="picture">
+                        <div class="picture-well">
+                            <img src="./images/square-headshot.jpg" class="headshot">
+                        </div>
+                    </div>
+                    <div class="social-icons top-level">
+                        <div class="icon-well">
+                            <p class="contact">Contact and learn about me via:</p>
+                            <a href="mailto:jonathan.steenblik@gmail.com?subject=I%20saw%20your%20github%20profile"><img src="./images/email icon.png" class="icon" alt="email"></a>
+                            <a href="http://www.github.com/Blikone" target="_blank" alt="GitHub"><img src=".\images\github icon.png" class="icon"></a>
+                            <a href="https://www.linkedin.com/in/jonathan-steenblik-a16918123" target="_blank" alt="LinkedIn"><img src=".\images\linkedin icon.png" class="icon"></a>
+                            <a href="https://www.facebook.com/jonathan.steenblik" target="_blank" alt="FaceBook"><img src=".\images\facebook icon.png" class="icon"></a>
+                            <a href="./resources/resume-dec-2016.docx" download="Jonathan Steenblik Resume.docx" alt="Resume"><img src=".\images\resume icon.png" class="icon"></a>
+                        </div>
+                    </div>
+                    <div class="about-me top-level">
+                        <div class="biography">
+                            <h2>About Me</h2>
+                            <p>
+                                I'm a web developer with prior experience in mathematics, music, and education. I love the orderliness of computer code and
+                                see solid logic in its progression. My degree is in music, my first love, while my professional
+                                experience is in teaching higher-level mathematics in a high-needs setting. It wasn't until
+                                after college I investigated programming and decided to pursue this course.</p>
+                            <p>
+                                I received my programming training through the Full Stack Web Developer course at Boise CodeWorks, successfully passing their
+                                Fall 2016 cohort.</p>
+                        </div>
+                    </div>
+                    <div class="truths-game top-level">
+                        <div class="truths-and-lie">
+                            <div class="truth-game-heading">
+                                <h3>Let's play a game.</h3>
+                                <h4>Which of the following statements about me is true?</h4>
+                                <h4>Click to find out!</h4>
+                            </div>
+                            <div class="truth-lie" id="randomStatementA"></div>
+                            <div class="truth-lie" id="randomStatementB"></div>
+                            <div class="truth-lie" id="randomStatementC"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="interests">
 
-                </div>
-                <div class="truths-and-lie">
-                    <div class="truth-game-heading">
-                        <h3>Let's play a game.</h3>
-                        <h4>Which of the following statements about me is true?</h4>
-                        <h4>Click to find out!</h4>
+                <div class="col-xs-8">
+                    <div class="name">
+                        <div class="fullname">
+                            <h1>Jonathan Steenblik</h1>
+                        </div>
                     </div>
-                    <div class="truth-lie" id="randomStatementA">
-
+                    <div class="job-work top-level">
+                        <h2 class="work-heading">Professional Work</h2>
+                        <div class="portfolio">
+                            <div class="thumb-well">
+                                <a href="https://aversandev.wpengine.com/" target="_blank"><img src=".\images\Aversan.PNG" class="project-thumb" alt="Wordpress">
+                                    <h5>Site built using and customizing a Wordpress template</h5>
+                                </a>
+                            </div>
+                            <div class="thumb-well">
+                                <a href="https://vertech.com/" target="_blank"><img src=".\images\Vertech.PNG" class="project-thumb" alt="Stylish iTunes searcher">
+                                    <h5>Unified navbar appearance across different CMS</h5>
+                                </a>
+                            </div>
+                            <div class="thumb-well">
+                                <a href="https://www.riafox.com/blog/writing-content-for-business-blogs-5-simple-guidelines" target="_blank"><img src=".\images\Riafox-blog.PNG" class="project-thumb" alt="The Game of Life">
+                                    <h5>Writing piece about business blogging</h5>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="truth-lie" id="randomStatementB">
-
+                    <div class="self-work top-level">
+                        <h2 class="work-heading">Student Work</h2>
+                        <div class="portfolio">
+                            <div class="thumb-well">
+                                <a href="https://blikone.github.io/inspire/" target="_blank"><img src=".\images\inspire-app.PNG" class="project-thumb" alt="Inspiration">
+                                    <h5>Useful and visually-refreshing home page</h5>
+                                </a>
+                            </div>
+                            <div class="thumb-well">
+                                <a href="https://blikone.github.io/itunes/" target="_blank"><img src=".\images\itunes-app.PNG" class="project-thumb" alt="Stylish iTunes searcher">
+                                    <h5>Search iTunes database and save favorites</h5>
+                                </a>
+                            </div>
+                            <div class="thumb-well">
+                                <a href="https://blikone.github.io/life-game/" target="_blank"><img src=".\images\genesis-app.PNG" class="project-thumb" alt="The Game of Life">
+                                    <h5>Robert Conway's Life Genesis engine</h5>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="truth-lie" id="randomStatementC">
-
+                    <div class="my-skills top-level">
+                        <div class="skills-heading">
+                            <h2>My Skills</h2>
+                        </div>
+                        <div class="skills-list">
+                            <p>I have experience in the following systems:</p>
+                            <ul>
+                                <li>HTML, CSS, and Javascript</li>
+                                <li>Responsive styling through both media queries and Twitter Bootstrap</li>
+                                <li>Interactivity via jQuery</li>
+                                <li>Webpage management through Node.js</li>
+                                <li>Relational database operations with JS-Data</li>
+                                <li>Multi-page responsive websites with AngularJS</li>
+                                <li>Experience parsing and editing code in Python and PHP</li>
+                                <li>Both model-view-controller and service-controller page structures</li>
+                                <li>Unit testing through Mocha and Chai</li>
+                            </ul>
+                            <h6>I'm proficient in using webpage styling to duplicate any layout I’m given, but I feel my strength
+                                lies in functional programming. </h6>
+                        </div>
+                    </div>
+                    <div class="philosophy top-level">
+                        <div class="training">
+                            <h2>My Work Philosophy</h2>
+                            <p>
+                                Many aspects of my life and career before becoming a programmer inform my current style and outlook. As a musician, I was
+                                encouraged to record my practice for self-evaluation, and play for family and friends to
+                                rehearse in performance settings. Today, this means that I still get family and friends to
+                                examine my work, and I do my best to evaluate my design through the eyes of a user or other
+                                observer. My biggest question is, "Would I want to use this?"</p>
+                            <p>
+                                As a trigonometry teacher, I was given the latitude to design my own curriculum. I had the responsibility to help my group
+                                of seniors become college-ready before graduation. My approach involved finding and addressing
+                                holes in their knowledge and prioritizing ways to work the specific practice they needed
+                                into my daily instruction. I had to skip areas that I considered engaging, like polyhedral
+                                geometry, in order to concentrate on those I anticipated being most in need of in college
+                                and beyond, such as exponential growth and interest rates. The lesson I have taken from this
+                                experience is that necessary components must be added to a project before the flashier, bonus
+                                features.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-8 main-well">
-                <div class="intro">
+        </div>
+        <div class="mobile-content">
+            <div class="picture">
+                <div class="picture-well">
+                    <img src="./images/square-headshot.jpg" class="headshot">
+                </div>
+            </div>
+            <div class="name">
+                <div class="fullname">
                     <h1>Jonathan Steenblik</h1>
                 </div>
+            </div>
+            <div class="about-me top-level">
+                <div class="biography">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm a web developer with prior experience in mathematics, music, and education. I love the orderliness of computer code and
+                        see solid logic in its progression. My degree is in music, my first love, while my professional experience
+                        is in teaching higher-level mathematics in a high-needs setting. It wasn't until after college I
+                        investigated programming and decided to pursue this course.</p>
+                    <p>
+                        I received my programming training through the Full Stack Web Developer course at Boise CodeWorks, successfully passing their
+                        Fall 2016 cohort.</p>
+                </div>
+            </div>
+            <div class="social-icons top-level">
                 <div class="icon-well">
-                    <p class="contact">
-                        Contact and learn about me via:
-                    </p>
+                    <p class="contact">Contact and learn about me via:</p>
                     <a href="mailto:jonathan.steenblik@gmail.com?subject=I%20saw%20your%20github%20profile"><img src="./images/email icon.png" class="icon" alt="email"></a>
                     <a href="http://www.github.com/Blikone" target="_blank" alt="GitHub"><img src=".\images\github icon.png" class="icon"></a>
                     <a href="https://www.linkedin.com/in/jonathan-steenblik-a16918123" target="_blank" alt="LinkedIn"><img src=".\images\linkedin icon.png" class="icon"></a>
                     <a href="https://www.facebook.com/jonathan.steenblik" target="_blank" alt="FaceBook"><img src=".\images\facebook icon.png" class="icon"></a>
                     <a href="./resources/resume-dec-2016.docx" download="Jonathan Steenblik Resume.docx" alt="Resume"><img src=".\images\resume icon.png" class="icon"></a>
                 </div>
-                <div class="biography">
-                    <h2>About Me</h2>
-                    <p>
-                        I'm a web developer with prior experience in mathematics, music, and education. I love the orderliness of computer code and see solid logic in its progression. My degree is in music, my first love, while my professional experience is in teaching higher-level mathematics in a high-needs setting. It wasn't until after college I investigated programming and decided to pursue this course.</p>
-                    <p>
-                        I received my programming training through the Full Stack Web Developer course at Boise CodeWorks, successfully passing their Fall 2016 cohort.</p>
+            </div>
+            <div class="job-work top-level">
+                <h2 class="work-heading">Professional Work</h2>
+                <div class="portfolio">
+                    <div class="thumb-well">
+                        <a href="https://aversandev.wpengine.com/" target="_blank"><img src=".\images\Aversan.PNG" class="project-thumb" alt="Wordpress">
+                            <h5>Site built using and customizing a Wordpress template</h5>
+                        </a>
+                    </div>
+                    <div class="thumb-well">
+                        <a href="https://vertech.com/" target="_blank"><img src=".\images\Vertech.PNG" class="project-thumb" alt="Stylish iTunes searcher">
+                            <h5>Unified navbar appearance across different CMS</h5>
+                        </a>
+                    </div>
+                    <div class="thumb-well">
+                        <a href="https://www.riafox.com/blog/writing-content-for-business-blogs-5-simple-guidelines" target="_blank"><img src=".\images\Riafox-blog.PNG" class="project-thumb" alt="The Game of Life">
+                            <h5>Writing piece about business blogging</h5>
+                        </a>
+                    </div>
                 </div>
+            </div>
+            <div class="self-work top-level">
+                <h2 class="work-heading">Student Work</h2>
+                <div class="portfolio">
+                    <div class="thumb-well">
+                        <a href="https://blikone.github.io/inspire/" target="_blank"><img src=".\images\inspire-app.PNG" class="project-thumb" alt="Inspiration">
+                            <h5>Useful and visually-refreshing home page</h5>
+                        </a>
+                    </div>
+                    <div class="thumb-well">
+                        <a href="https://blikone.github.io/itunes/" target="_blank"><img src=".\images\itunes-app.PNG" class="project-thumb" alt="Stylish iTunes searcher">
+                            <h5>Search iTunes database and save favorites</h5>
+                        </a>
+                    </div>
+                    <div class="thumb-well">
+                        <a href="https://blikone.github.io/life-game/" target="_blank"><img src=".\images\genesis-app.PNG" class="project-thumb" alt="The Game of Life">
+                            <h5>Robert Conway's Life Genesis engine</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="my-skills top-level">
                 <div class="skills-heading">
                     <h2>My Skills</h2>
                 </div>
@@ -64,53 +229,22 @@
                     <p>I have experience in the following systems:</p>
                     <ul>
                         <li>HTML, CSS, and Javascript</li>
-                        <li>Responsive styling through Twitter Bootstrap</li>
+                        <li>Responsive styling through both media queries and Twitter Bootstrap</li>
                         <li>Interactivity via jQuery</li>
                         <li>Webpage management through Node.js</li>
                         <li>Relational database operations with JS-Data</li>
                         <li>Multi-page responsive websites with AngularJS</li>
+                        <li>Experience parsing and editing code in Python and PHP</li>
                         <li>Both model-view-controller and service-controller page structures</li>
                         <li>Unit testing through Mocha and Chai</li>
                     </ul>
-                    <h6>I'm proficient in using webpage styling to duplicate any layout I’m given, but I feel my strength lies in functional programming.  </h6>
+                    <h6>I'm proficient in using webpage styling to duplicate any layout I’m given, but I feel my strength lies
+                        in functional programming. </h6>
                 </div>
-                <div class="portfolio-heading">
-                    <h2>My Work</h2>
-                </div>
-                <div class="portfolio container-fluid">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <a href="https://blikone.github.io/inspire/" target="_blank"><img src=".\images\inspire-app.PNG" class="project-thumb" alt="Inspiration">
-                                <h5>Useful and visually-refreshing home page</h5>
-                            </a>
-                        </div>
-                        <div class="col-xs-4 inactive">
-                            <a><img src=".\images\bsa-app.PNG" class="project-thumb" alt="Cub Scout Day Camp Registration">
-                                <h5>BSA Day Camp Registration System</h5>
-                            </a>
-                        </div>
-                        <div class="col-xs-4">
-                            <a href="https://blikone.github.io/itunes/" target="_blank"><img src=".\images\itunes-app.PNG" class="project-thumb" alt="Stylish iTunes searcher">
-                                <h5>Search iTunes database and save favorites</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <a href="https://blikone.github.io/life-game/" target="_blank"><img src=".\images\genesis-app.PNG" class="project-thumb" alt="The Game of Life">
-                                <h5>Robert Conway's Life Genesis engine</h5>
-                            </a>
-                        </div>
-                        <div class="col-xs-4">
-                            <a href="https://blikone.github.io/fantasy-football/" target="_blank"><img src=".\images\football-app.PNG" class="project-thumb" alt="Fantasy Football roster">
-                                <h5>Build a fantasy
-                                    <s>hand egg</s> football team</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            </div>
+            <div class="philosophy top-level">
                 <div class="training">
-                    <h2>My Experience</h2>
+                    <h2>My Work Philosophy</h2>
                     <p>
                         Many aspects of my life and career before becoming a programmer inform my current style and outlook. As a musician, I was
                         encouraged to record my practice for self-evaluation, and play for family and friends to rehearse
@@ -127,6 +261,21 @@
                         must be added to a project before the flashier, bonus features.</p>
                 </div>
             </div>
+            <div class="truths-game top-level">
+                <div class="truths-and-lie">
+                    <div class="truth-game-heading">
+                        <h3>Let's play a game.</h3>
+                        <h4>Which of the following statements about me is true?</h4>
+                        <h4>Click to find out!</h4>
+                    </div>
+                    <div class="truth-lie" id="randomStatementA-2"></div>
+                    <div class="truth-lie" id="randomStatementB-2"></div>
+                    <div class="truth-lie" id="randomStatementC-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Jonathan Steenblik, 2017.</p>
         </div>
     </div>
 

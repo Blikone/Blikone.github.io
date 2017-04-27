@@ -9,12 +9,14 @@
         { prompt: "I have appeared onstage with the internationally-acclaimed Eroica Trio.", answer: "True. In college I worked for a year as an usher in the auditorium and volunteered to be their page turner." },
         { prompt: "I still carry a flip phone.", answer: "Yes, it's true.  I'm a simple man, and I prefer to get directions before I leave the house." },
         { prompt: "I have entered produce from my garden in the county fair.", answer: "True. Won honorable mention for tomatoes with strange growths that my father labelled \"Richard Nixon and Spiro Agnew\"." },
+        { prompt: "I do my own taxes, by hand when I can.", answer: "True. I even prepared taxes professionally for one season." }
     ];
     var lies = [
         { prompt: "I once placed in a Super Smash Brothers tournament.", answer: "False. But I played against friends enough to be a fairly competent button-masher." },
         { prompt: "I won the county Spelling Bee in elementary school.", answer: "False. But second place in the county spelling bee isn't bad." },
         { prompt: "I am fluent in Spanish.", answer: "Sadly, no. Though I'm pretty good at French." },
         { prompt: "I am an avid Whovian and adore David Tennant.", answer: "David Tennant is a great actor, but I don't watch Doctor Who. I prefer BBC's Sherlock any day of the week." },
+        { prompt: "I sing along to country music on the radio.", answer: "Generally not, though I have a soft spot for \"Live Like You Were Dying\"." }
     ];
     var randomizer = Math.floor(Math.random() * Math.ceil(truths.length / 2));
     var randomTruthA = truths[randomizer];
